@@ -28,7 +28,7 @@ function Modal({ idioma } : IdiomaProps) {
                             <label htmlFor="correo">{ idioma == "es" ? "Correo / Usuario" : "User / Email" }</label>
                             <input placeholder={ idioma == "es" ? "Correo" : "Email" } />
                             <label htmlFor="contrasena">{ idioma == "es" ? "Contraseña" : "Password"}</label>
-                            <input type="password" placeholder={ idioma == "es" ? "Contraseña" : "Password"} />
+                            <input placeholder={ idioma == "es" ? "Contraseña" : "Password"} />
                         </div>
                         <div className="modal__footer">
                         <button className="btn__login">
