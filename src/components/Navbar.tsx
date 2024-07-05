@@ -132,7 +132,7 @@ function Navbar() {
                                     </li>
                                     <li>
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/academia#publica">{ idioma == "es" ? "Gestion Inversión Pública" : "Public Investment Management" }</Link>
+                                            <Link to="/capacidades/academia#publica">{ idioma == "es" ? "Gestión Inversión Pública" : "Public Investment Management" }</Link>
                                         </div>
                                     </li>
                                     <li>
