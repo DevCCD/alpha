@@ -42,7 +42,7 @@ function Footer({ idioma } : IdiomaProps) {
                     </div>
                     <div className="campo email">
                         <label>{idioma == "es" ? "Correo" : "Email"}</label>
-                        <input type="email" id="email" name="email" placeholder={idioma == "es" ? "Correo" : "Email"} />
+                        <input id="email" name="email" placeholder={idioma == "es" ? "Correo" : "Email"} />
                     </div>
                     <div className="campo industria">
                         <label>{idioma == "es" ? "Industria" : "Industry"}</label>
@@ -333,7 +333,7 @@ function Footer({ idioma } : IdiomaProps) {
                     </div>
                     <div className="correo">
                         <form action="#">
-                            <input type="email" name="email" placeholder={idioma == "es" ? "Correo" : "Email"} />
+                            <input name="email" placeholder={idioma == "es" ? "Correo" : "Email"} />
                             <button type="submit">{idioma == "es" ? "Enviar" : "Submit"}</button>
                         </form>
                     </div> */}
