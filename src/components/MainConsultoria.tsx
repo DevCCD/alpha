@@ -36,7 +36,7 @@ function MainConsultoria({ idioma } : IdiomaProps) {
                     <div className="grid__macro_2">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/consultoria/macro2" alt="Riesgos" />
                         <div>
-                            <p>{ idioma == "es" ? "Análisis de políticas fiscal, monetario y comercial y efectos sobre las organizaciones y países" : "Analysis of fiscal, monetary and commercial policies and effects on organizations and countries" }</p>
+                            <p>{ idioma == "es" ? "Análisis de políticas fiscales, monetarias y comerciales, y efectos sobre las organizaciones y países" : "Analysis of fiscal, monetary and commercial policies and effects on organizations and countries" }</p>
                         </div>
                     </div>
                     <div className="grid__macro_3">
@@ -86,7 +86,7 @@ function MainConsultoria({ idioma } : IdiomaProps) {
                     <div className="subcontainer__estruc">
                         <div>
                             <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/consultoria/estrucfin2" alt="" />
-                            <p>{ idioma == "es" ? "Fondos, inversiones y transacciones de financiamiento de proyectos de infraestructura locales y transfronterizos" : "Funds, investments and financing transactions for local and cross-border infrastructure projects" }</p>
+                            <p>{ idioma == "es" ? "Fondos, inversiones, y transacciones de financiamiento de proyectos de infraestructura locales y transfronterizos" : "Funds, investments, and financing transactions for local and cross-border infrastructure projects" }</p>
                         </div>
 
                         <p className="estruc__down">{ idioma == "es" ? "Conexiones con agencias de desarrollo internacionales y con conglomerados internacionales" : "Connections with international development agencies and international conglomerates" }</p>

@@ -31,6 +31,7 @@ body.light .modal__container {
     color: var(--gray-color);
 }
 
+.btn__login a:hover,
 .modal__header a:hover {
     color: var(--primary-color);
 }
@@ -80,6 +81,10 @@ body.light .modal__container {
 .modal__footer button:hover {
     background-color: var(--white-color);
     color: var(--primary-color);
+}
+
+.btn__login a {
+    color: #fff;
 }
 
 @media screen and (max-width: 1350px) {

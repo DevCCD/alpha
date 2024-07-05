@@ -68,7 +68,7 @@ function MainServicio ({ idioma } : IdiomaProps) {
                     </div>
                     <div className="servicio__right">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/servicio/Servicio8" />
-                        <p>{ idioma == "es" ? "Fortalecemos " : "We strengthen "} <b>{ idioma == "es" ? "capacidades de los colaboradores" : "capabilities of collaborators" }</b>{ idioma == "es" ? " análisis, medición de impactos y seguimiento de variables globales, económicas, sociales y políticas sobre las finanzas y sostenibilidad de la empresa" : " analysis, measurement of impacts and monitoring of global, economic, social and political variables on the finances and sustainability of the company" }</p>
+                        <p>{ idioma == "es" ? "Fortalecemos " : "We strengthen "} <b>{ idioma == "es" ? "capacidades de los colaboradores" : "capabilities of collaborators" }</b>{ idioma == "es" ? "  en análisis, medición de impactos y seguimiento de variables globales, económicas, sociales y políticas sobre las finanzas y sostenibilidad de la empresa" : " in analysis, measurement of impacts and monitoring of global, economic, social and political variables on the finances and sustainability of the company" }</p>
                     </div>
                 </div>
             </main>

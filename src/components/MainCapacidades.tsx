@@ -40,13 +40,13 @@ function MainCapacidades({ idioma } : IdiomaProps) {
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/capacidades/riesgos" />
                         <div>
                             <h3>{ idioma == "es" ? "Identificación de riesgos y oportunidades" : "Identification of risks and opportunities" }</h3>
-                            <p>{ idioma == "es" ? "Fortalecemos el conocimiento de la alta dirección del contexto global, económico, social y político del país. De esta manera se podrá plantear mejores estrategias tanto ofensivas como defensivas, tomando en consideración la interacción con otros stakeholders" : "We strengthen senior management's knowledge of the country's global, economic, social and political context. In this way, better offensive and defensive strategies can be proposed, taking into consideration the interaction with other stakeholders" }</p>
+                            <p>{ idioma == "es" ? "Fortalecemos el conocimiento de la alta dirección del contexto global, económico, social y político del país. De esta manera, se podrán plantear mejores estrategias tanto ofensivas como defensivas, tomando en consideración la interacción con otros stakeholders" : "We strengthen senior management's knowledge of the country's global, economic, social and political context. In this way, better offensive and defensive strategies can be proposed, taking into consideration the interaction with other stakeholders" }</p>
                         </div>
                     </div>
                     <div className="grid__capacidades_3">
                         <div>
                             <h3>{ idioma == "es" ? "Contactos globales" : "Global contacts" }</h3>
-                            <p>{ idioma == "es" ? "Ponemos a disposición de la empresa los contactos de Alpha, lo que permitirá un acceso más directo a los tomares de decisiones a nivel global" : "We make Alpha contacts available to the company, which will allow more direct access to global decision makers" }</p>
+                            <p>{ idioma == "es" ? "Ponemos a disposición de la empresa los contactos de Alpha, lo que permitirá un acceso más directo a los responsables de la formulación de políticas a nivel global" : "We make Alpha contacts available to the company, which will allow more direct access to global decision makers" }</p>
                         </div>
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/capacidades/contactos" />
                     </div>

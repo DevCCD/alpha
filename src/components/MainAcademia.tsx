@@ -34,7 +34,7 @@ function MainAcademia({ idioma } : IdiomaProps) {
                 <div className="grid__academia_2">
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712120361/alpha/images/objetivo2_sxorg3.jpg" />
                     <div>
-                        <p>{ idioma == "es" ? "Contar con economistas de primer nivel que no sólo manejen aspectos teóricos y conceptuales sino estén capacitados para aplicar sus conocimientos a aspectos concretos de su realidad social y económica" : "Have top-level economists who not only handle theoretical and conceptual aspects but are trained to apply their knowledge to specific aspects of their social and economic reality." }</p>
+                        <p>{ idioma == "es" ? "Contar con economistas de primer nivel que no sólo manejen aspectos teóricos y conceptuales, sino estén capacitados para aplicar sus conocimientos a aspectos concretos de su realidad social y económica" : "Have top-level economists who not only handle theoretical and conceptual aspects but are trained to apply their knowledge to specific aspects of their social and economic reality." }</p>
                     </div>
                 </div>
             </div>
@@ -206,14 +206,14 @@ function MainAcademia({ idioma } : IdiomaProps) {
             </div>
             <div className="display__title">
                 <div className='invisible__top' id='publica' />
-                <h2>{ idioma == "es" ? "Gestión de Inversión Publica" : "Public Investment Management" }</h2>
+                <h2>{ idioma == "es" ? "Gestión de Inversión Pública" : "Public Investment Management" }</h2>
             </div>
             <div className="container__macro">
                 <div className="grid__macro_3 grid__micro_1">
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712177686/alpha/images/cursos6_ij8obi.jpg" />
                     <div>
                         <h1>{ idioma == "es" ? "VI al X Semestre" : "VI to X Semester" }</h1>
-                        <sub>{ idioma == "es" ? "Gestión de Inversión Publica" : "Public Investment Management" }</sub>
+                        <sub>{ idioma == "es" ? "Gestión de Inversión Pública" : "Public Investment Management" }</sub>
                         <p>{ idioma == "es" ? "• Gerencia de Proyectos" : "• Proyect Management"}</p>
                         <p>{ idioma == "es" ? "• Invierte.pe y Programación Multianual de Inversiones" : "• Invierte.pe and Multiannual Investment Programming" }</p>
                         <p>{ idioma == "es" ? "• Presupuesto y Tesorería" : "• Budget and Treasury" }</p>
@@ -233,7 +233,7 @@ function MainAcademia({ idioma } : IdiomaProps) {
                     <div>
                         <h1>{ idioma == "es" ? "VIII al X Semestre" : "VIII to X Semester" }</h1>
                         <sub>{ idioma == "es" ? "Programa Aprendo Haciendo en Inversión Pública" : "Learn by Doing Program in Public Investment" }</sub>
-                        <p>{ idioma == "es" ? "• Convenio Fortalecimiento de Capacidades en Gestión de Inversión Publica" : "• Agreement to Strengthen Capacities in Public Investment Management" }</p>
+                        <p>{ idioma == "es" ? "• Convenio Fortalecimiento de Capacidades en Gestión de Inversión Pública" : "• Agreement to Strengthen Capacities in Public Investment Management" }</p>
                         <p>{ idioma == "es" ? "• Pasantías" : "• Internships" }</p>
                         <p>{ idioma == "es" ? "• Prácticas Preprofesionales" : "• Pre professional practices" }</p>
                         <p>{ idioma == "es" ? "• Observatorio Permanente del Programa Aprendo Haciendo en Inversión Pública" : "• Permanent Observatory of the I Learn by Doing Program in Public Investment" }</p>

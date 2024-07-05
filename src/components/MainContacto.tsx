@@ -50,7 +50,7 @@ function MainContacto ({ idioma } : IdiomaProps) {
                 <div className="info__trabaja">
                     <h3>{ idioma == "es" ? "Trabaja con nosotros" : "Join us" }</h3>
                     <h1>{ idioma == "es" ? "¡Creemos en tu potencial, experiencia y habilidades blandas!" : "We believe in your potential, experience and soft skills!" }</h1>
-                    <p>{ idioma == "es" ? "Se parte de la institución líder del país en competitividad, con más de una década impulsando el desarrollo nacional, regional, provincial, distrital y comunal" : "Be part of the country's leading institution in competitiveness, with more than a decade promoting national, regional, provincial, district and communal development" }</p>
+                    <p>{ idioma == "es" ? "Sé parte de la institución líder del país en competitividad, con más de una década impulsando el desarrollo nacional, regional, provincial, distrital y comunal" : "Be part of the country's leading institution in competitiveness, with more than a decade promoting national, regional, provincial, district and communal development" }</p>
                     <div className="form-container">
                         <form>
                         <div className="input-group">

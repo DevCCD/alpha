@@ -22,17 +22,17 @@ function Modal({ idioma } : IdiomaProps) {
                             <IoMdClose id='close__modal' />
                         </Link>
                     </div>
-                    <form action="/repositorio">
+                    <form>
                         <div className="modal__body">
                             <h2>{ idioma == "es" ? "Inicio de sesión - Repositorio" : "Repository - Login"}</h2>
                             <label htmlFor="correo">{ idioma == "es" ? "Correo / Usuario" : "User / Email" }</label>
-                            <input type="email" placeholder={ idioma == "es" ? "Correo" : "Email" } />
+                            <input placeholder={ idioma == "es" ? "Correo" : "Email" } />
                             <label htmlFor="contrasena">{ idioma == "es" ? "Contraseña" : "Password"}</label>
                             <input type="password" placeholder={ idioma == "es" ? "Contraseña" : "Password"} />
                         </div>
                         <div className="modal__footer">
                             <button className="btn__login">
-                            { idioma == "es" ? "Continuar" : "Continue"}
+                                <Link to='/repositorio'>{ idioma == "es" ? "Continuar" : "Continue"}</Link>
                             </button>
                         </div>
                     </form>

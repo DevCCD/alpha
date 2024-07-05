@@ -36,7 +36,7 @@ const redes = [
     {
         "_id": 5,
         "nombre": "WhatsApp",
-        "url": "https://wa.me/51942908008",
+        "url": "https://api.whatsapp.com/send?phone=51942908008",
         "icono": FaWhatsapp
     },
     {

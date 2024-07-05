@@ -5,7 +5,7 @@ const observatorio = [
         "etiqueta": "observatorio1",
         "tituloES": "Indicador de Actividad Económica",
         "tituloEN": "Economic Activity Indicator",
-        "descripcionES": "El indicador líder de la Actividad Económica No Primaria prevé un ligero efecto rebote en los 2 primeros meses del año 2024, principalmente por la baja base de comparación por los conflictos sociales de los primeros meses del año pasado. Para los siguientes meses dicho rebote se irá diluyendo, y el indicador líder se encontrará alrededor de cero.",
+        "descripcionES": "El indicador líder de la Actividad Económica No Primaria prevé un ligero efecto rebote en los 2 primeros meses del año 2024, principalmente por la baja base de comparación por los conflictos sociales de los primeros meses del año pasado. Para los siguientes meses, dicho rebote se irá diluyendo, y el indicador líder se encontrará alrededor de cero.",
         "descripcionEN": "The leading indicator of Non-Primary Economic Activity foresees a slight rebound effect in the first 2 months of 2024, mainly due to the low comparison base due to the social conflicts of the first months of last year. For the following months, this rebound will be diluted, and the leading indicator will be around zero.",
         "titutloGraficoES":"Crecimiento PBI No Primario y Proyecciones",
         "titutloGraficoEN":"Non-Primary GDP Growth and Projections",

@@ -146,7 +146,7 @@ const cursos = [
     },
     {
         "_id": "5",
-        "nombre": "Gestión de Inversión Publica",
+        "nombre": "Gestión de Inversión Pública",
         "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "imagen": "https://4kwallpapers.com/images/walls/thumbs_2t/5898.jpg",
         "modulos": [
