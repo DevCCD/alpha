@@ -6,43 +6,43 @@ const redes = [
     {
         "_id": 0,
         "nombre": "+51 942 908 008",
-        "url": "#",
+        "url": "tel:+51 942 908 008",
         "icono": FaPhone
     },
     {
         "_id": 1,
         "nombre": "Email",
-        "url": "#",
+        "url": "mailto:administracion@alphaasesoriaestrategica.com",
         "icono": IoMdMail
     },
     {
         "_id": 2,
         "nombre": "Twitter",
-        "url": "#",
+        "url": "https://x.com/AlphaAsesoria",
         "icono": FaXTwitter
     },
     {
         "_id": 3,
         "nombre": "Facebook",
-        "url": "#",
+        "url": "https://www.facebook.com/profile.php?id=61560304402655",
         "icono": FaFacebookF
     },
     {
         "_id": 4,
         "nombre": "LinkedIn",
-        "url": "#",
+        "url": "https://www.linkedin.com/company/alpha-asesoria-estrategica",
         "icono": FaLinkedinIn
     },
     {
         "_id": 5,
         "nombre": "WhatsApp",
-        "url": "#",
+        "url": "https://api.whatsapp.com/send?phone=51942908008",
         "icono": FaWhatsapp
     },
     {
         "_id": 6,
         "nombre": "Youtube",
-        "url": "#",
+        "url": "https://www.youtube.com/channel/UCZVGBA2XIv4x7MnRDb1BNuA",
         "icono": FaYoutube
     }
 ]
