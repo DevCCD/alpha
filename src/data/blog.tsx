@@ -68,6 +68,13 @@ const blog = [
         "description" : "“Si hacemos las cosas bien durante 10 años, apostando por la minería y la agroexportación, podemos crecer al 7% promedio anual, lo que nos llevaría a duplicar nuestro producto y lograr una pobreza por debajo del 5%”.",
         "url" : "https://peru21.pe/opinion/es-la-economia-estupido-noticia-2/",
         "urlImage" : "https://peru21.pe/resizer/bvnvtgLuZeACAyUu6jqm1ztnx_0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/B3ZBDA6YBFHG3IIV6KJA5IRFDA.jpg",
+    },
+    {
+        "_idBlog" :"10",
+        "title" : "“Cuatro errores y un cuento de terror”",
+        "description" : "“El precio del cobre no determina el crecimiento de una economía. Esta lo hará si existen las políticas adecuadas para atraer inversión y mejorar la productividad, cosa que no está ocurriendo ahora”.",
+        "url" : "https://peru21.pe/opinion/es-la-economia-estupido-noticia-2/",
+        "urlImage" : "https://peru21.pe/resizer/v2/VHOXBPDZJJHYNBSUOD4FQVCGJ4.jpg?auth=cde4815603346136145faa2cd76927feb202b37818490cdd103255be1529b3ee&width=580&height=330&quality=75&smart=true",
     }
 ]
 
