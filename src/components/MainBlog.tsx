@@ -20,7 +20,7 @@ function MainBlog({ idioma } : IdiomaProps) {
                 <div className="gray-bg banner__blog">
                     <div className="banner__blog__title">
                         <h1>{ idioma == "es" ? "Blog Alpha" : "Alpha Blog" }</h1>
-                        <p>{ idioma == "es" ? "Publicaciones sobre nuestra gente, nuestras capacidades, nuestra investigación y el rostro en constante cambio de nuestra empresa" : "Posts about our people, our capabilities, our research and the ever-changing face of our company" }</p>
+                        <p>{ idioma == "es" ? "Publicaciones sobre nuestra gente, nuestras capacidades, nuestra investigación y el constante cambio de nuestra empresa" : "Posts about our people, our capabilities, our research and the ever-changing face of our company" }</p>
                     </div>
                 </div>
                 <div className="container__publi">

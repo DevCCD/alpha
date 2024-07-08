@@ -89,7 +89,7 @@ function MainConsultoria({ idioma } : IdiomaProps) {
                             <p>{ idioma == "es" ? "Fondos, inversiones, y transacciones de financiamiento de proyectos de infraestructura locales y transfronterizos" : "Funds, investments, and financing transactions for local and cross-border infrastructure projects" }</p>
                         </div>
 
-                        <p className="estruc__down">{ idioma == "es" ? "Conexiones con agencias de desarrollo internacionales y con conglomerados internacionales" : "Connections with international development agencies and international conglomerates" }</p>
+                        <p className="estruc__down">{ idioma == "es" ? "Fuertes conexiones con agencias de desarrollo y conglomerados internacionales" : "Connections with international development agencies and international conglomerates" }</p>
                     </div>
                 </div>
                 <div className="display__title">

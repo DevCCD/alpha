@@ -59,7 +59,7 @@ function MainExperiencia ({ idioma } : IdiomaProps) {
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712160420/alpha/images/experiencia6_qqgsod.jpg"  />
                     <div>
                         <h1>{ idioma == "es" ? "Conglomerados" : "Conglomerates" }</h1>
-                        <p>{ idioma == "es" ? "Fuertes conexiones con agencias de desarrollo internacionales y con conglomerados internacionales" : "Strong connections with international development agencies and international conglomerates" }</p>
+                        <p>{ idioma == "es" ? "Fuertes conexiones con agencias de desarrollo y conglomerados internacionales" : "Strong connections with international development agencies and international conglomerates" }</p>
                     </div>
                 </div>
                 <div className="grid__macro_2 grid__micro_2">

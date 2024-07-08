@@ -56,7 +56,7 @@ function MainAcademia({ idioma } : IdiomaProps) {
                 <div className="grid__capacidades_3">
                     <div>
                         <h3>{ idioma == "es" ? "Bases" : "Bases" }</h3>
-                        <p>{ idioma == "es" ? "Capital humano, productividad, crecimiento sostenible" : "Human capital, productivity, sustainable growth" }</p>
+                        <p>{ idioma == "es" ? "Capital humano, productividad y crecimiento sostenible" : "Human capital, productivity and sustainable growth" }</p>
                     </div>
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712120612/alpha/images/objetivo5_nqmjes.jpg" />
                 </div>
@@ -64,7 +64,7 @@ function MainAcademia({ idioma } : IdiomaProps) {
             <div className="container__caracteristicas">
                 <div className="container__etiqueta">
                     <h1>{ idioma == "es" ? "Características" : "Characteristics" }</h1>
-                    <p>{ idioma == "es" ? "Universidades Beneficiarias: Universidades públicas de provincias – Alumnos de la Carrera de Economía y otras carreras que incluyan cursos de Economía" : "Beneficiary Universities: Provincial public universities – Economics major students and other majors that include Economics courses" }</p>
+                    <p>{ idioma == "es" ? "Universidades beneficiarias: universidades públicas de provincias – alumnos de la carrera de Economía y otras carreras que incluyan cursos de Economía" : "Beneficiary universities: Provincial public universities – Economics major students and other majors that include Economics courses" }</p>
                 </div>
                 <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1711922021/alpha/images/ciclo_caracteristicas_dqeor6.png" />
             </div>
@@ -111,35 +111,35 @@ function MainAcademia({ idioma } : IdiomaProps) {
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712176790/alpha/images/beneficios6_h6ifb8.jpg" />
                     <div>
                         <sub>{ idioma == "es" ? "Plataforma" : "Platform" }</sub>
-                        <p>{ idioma == "es" ? "Plataforma Virtual (videos, foros, evaluaciones)" : "Virtual Platform (videos, forums, evaluations)" }</p>
+                        <p>{ idioma == "es" ? "Plataforma virtual (videos, foros, evaluaciones)" : "Virtual platform (videos, forums, evaluations)" }</p>
                     </div>
                 </div>
                 <div className="grid__macro_1">
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712176791/alpha/images/beneficios7_xhjyke.jpg" />
                     <div>
                         <sub>{ idioma == "es" ? "Foros" : "Forums" }</sub>
-                        <p>{ idioma == "es" ? "Participación en foros de cada Curso" : "Participation in forums of each Course" }</p>
+                        <p>{ idioma == "es" ? "Participación en foros de cada curso" : "Participation in forums of each course" }</p>
                     </div>
                 </div>
                 <div className="grid__macro_2">
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712176794/alpha/images/beneficios8_xbb8dm.jpg" />
                     <div>
                         <sub>{ idioma == "es" ? "Virtual" : "Virtual" }</sub>
-                        <p>{ idioma == "es" ? "Biblioteca Virtual" : "Virtual library" }</p>
+                        <p>{ idioma == "es" ? "Biblioteca virtual" : "Virtual library" }</p>
                     </div>
                 </div>
                 <div className="grid__macro_3">
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712176795/alpha/images/beneficios9_e9jm6b.jpg" />
                     <div>
                         <sub>{ idioma == "es" ? "Candidatos" : "Candidates" }</sub>
-                        <p>{ idioma == "es" ? "Identificación de candidatos a maestrías en Universidades españolas" : "Identification of candidates for master's degrees in Spanish Universities" }</p>
+                        <p>{ idioma == "es" ? "Identificación de candidatos a maestrías en universidades españolas" : "Identification of candidates for master's degrees in spanish universities" }</p>
                     </div>
                 </div>
                 <div className="grid__macro_3">
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712176799/alpha/images/beneficios10_i6yxox.jpg" />
                     <div>
                         <sub>{ idioma == "es" ? "Investigaciones" : "Research" }</sub>
-                        <p>{ idioma == "es" ? "Participación en Investigaciones Aplicadas en Política Pública, potenciales publicaciones conjuntas para el desarrollo regional y nacional" : "Participation in Applied Research in Public Policy, potential joint publications for regional and national development" }</p>
+                        <p>{ idioma == "es" ? "Participación en investigaciones aplicadas en política pública, potenciales publicaciones conjuntas para el desarrollo regional y nacional" : "Participation in applied research in public policy, potential joint publications for regional and national development" }</p>
                     </div>
                 </div>
             </div>

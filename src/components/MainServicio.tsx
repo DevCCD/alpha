@@ -54,7 +54,7 @@ function MainServicio ({ idioma } : IdiomaProps) {
                 <div className="container__servicio">
                     <div className="servicio__left">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/servicio/Servicio5" />
-                        <p>{ idioma == "es" ? "Diagnosticamos las " : "We diagnose the " } <b>{ idioma == "es" ? "áreas de la empresa y las variables" : "areas of the company and variables" }</b>{ idioma == "es" ? "  globales, económicas, sociales y políticas vinculadas al PyG, y modelamos los impactos principalmente sobre los ingresos, costos/gastos y gastos financieros informe sectorial" : " global, economic, social and political aspects linked to the P&L, and we model the impacts mainly on income, costs/expenses and financial expenses sector report" }</p>
+                        <p>{ idioma == "es" ? "Diagnosticamos las " : "We diagnose the " } <b>{ idioma == "es" ? "áreas de la empresa y las variables" : "areas of the company and variables" }</b>{ idioma == "es" ? "  globales, económicas, sociales y políticas vinculadas al PyG, y modelamos los impactos principalmente sobre los ingresos, costos/gastos y gastos financieros" : " global, economic, social and political aspects linked to the P&L, and we model the impacts mainly on income, costs/expenses and financial expenses" }</p>
                     </div>
                     <div className="servicio__right">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/servicio/Servicio6" />
@@ -64,7 +64,7 @@ function MainServicio ({ idioma } : IdiomaProps) {
                 <div className="container__servicio">
                     <div className="servicio__left">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/servicio/Servicio7" />
-                        <p>{ idioma == "es" ? "Desarrollamos e insertamos a " : "We develop and insert " }<b>{ idioma == "es" ? "plataformas digitales" : "digital platforms" }</b>{ idioma == "es" ? " existentes la información centralizada que impactan a las cuentas del PyG informe sectorial" : " existing centralized information that impacts P&L sector report accounts"}</p>
+                        <p>{ idioma == "es" ? "Desarrollamos e insertamos a " : "We develop and insert " }<b>{ idioma == "es" ? "plataformas digitales" : "digital platforms" }</b>{ idioma == "es" ? " existentes la información centralizada que impactan a las cuentas del PyG" : " existing centralized information that impacts P&L accounts"}</p>
                     </div>
                     <div className="servicio__right">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/servicio/Servicio8" />
