@@ -73,7 +73,7 @@ const blog = [
         "_idBlog" :"10",
         "title" : "“Cuatro errores y un cuento de terror”",
         "description" : "“El precio del cobre no determina el crecimiento de una economía. Esta lo hará si existen las políticas adecuadas para atraer inversión y mejorar la productividad, cosa que no está ocurriendo ahora”.",
-        "url" : "https://peru21.pe/opinion/es-la-economia-estupido-noticia-2/",
+        "url" : "https://peru21.pe/opinion/cuatro-errores-y-un-cuento-de-terror-noticia/",
         "urlImage" : "https://peru21.pe/resizer/v2/VHOXBPDZJJHYNBSUOD4FQVCGJ4.jpg?auth=cde4815603346136145faa2cd76927feb202b37818490cdd103255be1529b3ee&width=580&height=330&quality=75&smart=true",
     }
 ]
