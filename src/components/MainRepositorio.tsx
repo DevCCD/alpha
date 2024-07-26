@@ -145,7 +145,7 @@ function MainRepositorio({ idioma } : IdiomaProps) {
                                 </div>
                                 <div className="card__info__reunion">
                                     <p>{ann.descripcion}</p>
-                                    <a href={ann.url}>{ idioma == "es" ? "Descargar" : "Download" }</a>
+                                    <a href={ann.url}>{ idioma == "es" ? "Detalles" : "Details" }</a>
                                 </div>
                             </div>
                         ))}
@@ -168,7 +168,7 @@ function MainRepositorio({ idioma } : IdiomaProps) {
                                 </div>
                                 <div className="card__info__reunion">
                                     <p>{meet.descripcion}</p>
-                                    <a href={meet.url}>{ idioma == "es" ? "Descargar" : "Download" }</a>
+                                    <a href={meet.url}>{ idioma == "es" ? "Detalles" : "Details" }</a>
                                 </div>
                             </div>
                         ))}
