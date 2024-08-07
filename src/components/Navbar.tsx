@@ -208,6 +208,9 @@ function Navbar() {
                                 </ul>
                             </div>
                         </li>
+                        <li className="nav__item">
+                            <Link to="/loginboard" className="nav__link">{idioma == "es" ? "Campus" : "Campus"}</Link>
+                        </li>
                         <li className="nav__item dropdown">
                             <Link to="/contacto" className="nav__link dropdown__link">{idioma == "es" ? "Contacto" : "Contact"} <i className='arrow__link'><FaChevronDown /></i>
                             </Link>
