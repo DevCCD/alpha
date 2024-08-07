@@ -86,7 +86,7 @@ function MainCurso({ idioma } : IdiomaProps) {
                                     </div>
                                     <div className={`sub-module-content ${openSubModules[0] ? 'open' : ''}`}>
                                         {modu.material.map((v, i) => (
-                                            <a href={v} key={i}><LuFileDown /> Descargar Documento {i+1}</a>
+                                            <a href={v} key={i} target="_blank"><LuFileDown /> Ver documento {i+1}</a>
                                         ))}
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ function MainCurso({ idioma } : IdiomaProps) {
                                     </div>
                                     <div className={`sub-module-content ${openSubModules[1] ? 'open' : ''}`}>
                                         {modu.ejercicios.map((v, i) => (
-                                            <a href={v} key={i}><LuFileEdit /> Descargar Ejercicio {i+1}</a>
+                                            <a href={v} key={i} target="_blank"><LuFileEdit /> Ver ejercicio {i+1}</a>
                                         ))}
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@ function MainCurso({ idioma } : IdiomaProps) {
                                     </div>
                                     <div className={`sub-module-content ${openSubModules[2] ? 'open' : ''}`}>
                                         {modu.videos.map((v, i) => (
-                                            <a href={v} key={i}><LuMonitorPlay /> Ver Video {i+1}</a>
+                                            <a href={v} key={i} target="_blank"><LuMonitorPlay /> Ver video {i+1}</a>
                                         ))}
                                     </div>
                                 </div>
