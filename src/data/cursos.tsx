@@ -291,7 +291,7 @@ const cursos = [
                 "material": ["https://drive.google.com/file/d/1DXSqXKb-RiOvsl-GfV3fawgIxPyMI0ct/preview?usp=sharing"],
                 "ejercicios": [],
                 "videos": ["https://drive.google.com/file/d/1WbLmwc5dl3oaL9UNy9kVO3bkQrV-vWeK/preview?usp=sharing", 
-                        "https://drive.google.com/file/d/19icHcSTVcY1QOCYR30j63orzKXEYXiSF/preview?usp=sharing", "#"],
+                        "https://drive.google.com/file/d/19icHcSTVcY1QOCYR30j63orzKXEYXiSF/preview?usp=sharing"],
             },
             {
                 "_id": "1",
