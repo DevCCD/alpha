@@ -20,7 +20,7 @@ function Modal({ idioma }: IdiomaProps) {
         e.preventDefault();
 
         // Verificación simple de credenciales
-        if (email === 'repositorio@alphaasesoriaestrategica.com' && password === 'alpha2024') {
+        if (email === 'repositorio@alphaasesoriaestrategica.com' && password === 'Alpha2024') {
             navigate('/repositorio');
         } else {
             alert(idioma === "es" ? "Credenciales incorrectas" : "Incorrect credentials");
