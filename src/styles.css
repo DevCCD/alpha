@@ -1243,7 +1243,7 @@ h1.display {
 .economia__right {
     width: 950px;
 }
-
+.economia__right iframe,
 .economia__right img {
     width: 100%;
 }
@@ -2177,6 +2177,26 @@ margin-right: 10px;
     color: #fff;
 }
 
+.flourish__graph {
+    min-height: 500px;
+    height: 100%;
+    border: 0;
+}
+
+.fl-fonts-loaded {
+    background-color: red !important;
+}
+
+.iframe__container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.iframe__container iframe {
+    max-width: 1380px;
+    min-width: 900px;
+}
+
 
 /* Movil/Mobile */
 /* 1380px */
@@ -2433,7 +2453,7 @@ margin-right: 10px;
     }
 
     .economia__right {
-        width: auto !important;
+        width: 100%;
         display: flex !important;
         justify-content: center !important;
     }
