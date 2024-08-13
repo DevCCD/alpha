@@ -29,7 +29,7 @@ function MainObservatorio ({ idioma } : IdiomaProps) {
                     <div className="economia__right">
                         <h2>{ idioma == "es" ? ob.titutloGraficoES : ob.titutloGraficoEN }</h2>
                         <p>{ idioma == "es" ? ob.subtitutloGraficoES : ob.subtitutloGraficoEN }</p>
-                        <img src={ob.grafico} />
+                            <iframe className='flourish__graph' src={`https://flo.uri.sh/visualisation/${ob.grafico}/embed`}></iframe>
                         <div className='fuente__observatorio'>
                             <sub className='nota__fuente'></sub>
                             <sub>{idioma == "es" ? ob.sourceES : ob.sourceEN }</sub>
