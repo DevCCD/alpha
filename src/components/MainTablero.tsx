@@ -18,7 +18,7 @@ function MainTablero({ idioma } : IdiomaProps) {
             <div className="white-bg banner__blog">
                 <div className="banner__blog__title">
                     <h1>{ idioma == "es" ? "Tablero" : "Board" }</h1>
-                    <p>{ idioma == "es" ? "Aquí puedes encontrar tus cursos disponibles. Explora el catálogo para ver todas las opciones." : "Here you can find your available courses. Explore the catalog to see all the options." }</p>
+                    <p>{ idioma == "es" ? "Aquí puedes encontrar los cursos disponibles. Explora el catálogo para ver todas las opciones." : "Here you can find your available courses. Explore the catalog to see all the options." }</p>
                 </div>
             </div>
             <div className='container__tablero'>
