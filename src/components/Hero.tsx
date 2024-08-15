@@ -1,6 +1,4 @@
 import '../styles.css';
-
-import globe from '../assets/hero.svg'
 import { Link } from 'react-router-dom';
 
 interface IdiomaProps {
@@ -17,7 +15,7 @@ const Hero = ({ idioma } : IdiomaProps) => {
             <main>
                 <div className="hero-container">
                     <img 
-                        src={globe}
+                        src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/hero/hero"
                     />
                     <div className="hero-text">
                         <h1>Alpha</h1>
