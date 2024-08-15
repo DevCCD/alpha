@@ -386,36 +386,6 @@ const cursos = [
             }
         ]
     },
-    {
-        "_id": "3",
-        "nombre": "Gestión de Inversión Pública",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "imagen": "https://4kwallpapers.com/images/walls/thumbs_2t/5898.jpg",
-        "modulos": [
-            {
-                "_id": "0",
-                "nombre": "Modulo 1",
-                "material": ["#", "#", "#"],
-                "ejercicios": ["#", "#", "#"],
-                "videos": ["#", "#", "#"],
-            }
-        ]
-    },
-    {
-        "_id": "4",
-        "nombre": "Programa Aprendo Haciendo en Inversión Pública",
-        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "imagen": "https://4kwallpapers.com/images/walls/thumbs_2t/5890.jpg",
-        "modulos": [
-            {
-                "_id": "0",
-                "nombre": "Modulo 1",
-                "material": ["#", "#", "#"],
-                "ejercicios": ["#", "#", "#"],
-                "videos": ["#", "#", "#"],
-            }
-        ]
-    },
 ]
 
 export default cursos;
