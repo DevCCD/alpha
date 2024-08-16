@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         element: <Capacidades />
     },
     {
-        path: '/capacidades/consultoria',
+        path: '/capacidades/asesoria',
         element: <Consultoria />
     },
     {
