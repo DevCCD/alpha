@@ -38,9 +38,8 @@ function Footer({ idioma } : IdiomaProps) {
                 <div className='invisible__top' id="contactar" />
                 <div className="informacion">
                     <h2>{idioma == "es" ? "Contáctanos" : "Contact us"}</h2>
-                    <p>
-                        {idioma == "es" ? "Si desea obtener más información sobre nuestros servicios, complete el formulario y cuéntenos un poco más sobre usted y lo que está buscando. Un miembro del equipo se pondrá en contacto contigo lo antes posible. Nunca compartiremos tus datos con terceros y podrás darte de baja en cualquier momento." : "If you would like more information about our services, please fill out the form and tell us a little more about yourself and what you are looking for. A member of the team will contact you as soon as possible. We will never share your data with third parties and you can unsubscribe at any time."}
-                    </p>
+                    <p>{ idioma == "es" ? "Si desea obtener más información sobre Alpha asesoría estratégica, escríbanos, un representante de nuestra organización se pondrá en contacto lo antes posible." : "" }</p>
+                    <p>{ idioma == "es" ? "La información proporcionada se mantendrá en todo momento estrictamente confidencial." : "" }</p>
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className="campos">

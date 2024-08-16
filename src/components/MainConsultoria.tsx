@@ -8,7 +8,7 @@ interface IdiomaProps {
 function MainConsultoria({ idioma } : IdiomaProps) {
 
     useEffect(() => {
-        document.title = idioma == "es" ? "Alpha | Consultoría" : "Alpha | Consultancy"
+        document.title = idioma == "es" ? "Alpha | Asesoría" : "Alpha | Consultancy"
     }, [idioma])
     
     return(
@@ -16,7 +16,7 @@ function MainConsultoria({ idioma } : IdiomaProps) {
             <main>
                 <div className="banner__container">
                     <div className="banner_left">
-                        <h1>{ idioma == "es" ? "Consultoría" : "Consultancy" }</h1>
+                        <h1>{ idioma == "es" ? "Asesoría" : "Consultancy" }</h1>
                     </div>
                     <div className="banner_right">
                         <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/consultoria/consultoria" alt="Imagen Capacidades" />

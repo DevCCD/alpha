@@ -144,7 +144,21 @@ function MainAcademia({ idioma } : IdiomaProps) {
                 </div>
             </div>
             <div id='carrera' className="display__title">
-                <h2>{ idioma == "es" ? "Cursos" : "Courses" }</h2>
+                <h2>{ idioma == "es" ? "Cursos actuales" : "Current courses" }</h2>
+            </div>
+            <div className="container__macro">
+                <div className="grid__macro_3 grid__micro_1">
+                    <img src="https://res.cloudinary.com/ccdcloudy/image/upload/f_auto,q_auto/v1/alpha/images/capacidades/current_course" />
+                    <div>
+                        <h1>{ idioma == "es" ? "I Semestre" : "I Semester" }</h1>
+                        <p>{ idioma == "es" ? "• Macroeconomía I" : "• Macroeconomics I" }</p>
+                        <p>{ idioma == "es" ? "• Microeconomía I" : "• Microeconomics I" }</p>
+                        <p>{ idioma == "es" ? "• Econometría I" : "• Econometrics I" }</p>
+                    </div>
+                </div>
+            </div>
+            <div id='carrera' className="display__title">
+                <h2>{ idioma == "es" ? "Cursos en preparación" : "Courses" }</h2>
             </div>
             <div className="container__macro">
                 <div className="grid__macro_2 grid__micro_2">
@@ -160,10 +174,7 @@ function MainAcademia({ idioma } : IdiomaProps) {
                     <img src="https://res.cloudinary.com/ccdcloudy/image/upload/v1712177674/alpha/images/cursos2_wijtbl.jpg" />
                     <div>
                         <h1>{ idioma == "es" ? "I Semestre" : "I Semester" }</h1>
-                        <p>{ idioma == "es" ? "• Macroeconomía I" : "• Macroeconomics I" }</p>
-                        <p>{ idioma == "es" ? "• Microeconomía I" : "• Microeconomics I" }</p>
                         <p>{ idioma == "es" ? "• Matemáticas I" : "• Mathematics I" }</p>
-                        <p>{ idioma == "es" ? "• Econometría I" : "• Econometrics I" }</p>
                         <p>{ idioma == "es" ? "• Finanzas I" : "• Finance I" }</p>
                     </div>
                 </div>

@@ -42,9 +42,7 @@ function MainContacto ({ idioma } : IdiomaProps) {
                 </aside>
                 <div className="info__contact">
                     <h1>{ idioma == "es" ? "Alpha Consultoría Estratégica" : "Alpha Strategic Consulting" }</h1>
-                    <h3>{ idioma == "es" ? "Si desea obtener más información sobre Alpha asesoría estratégica, escríbanos, un representante de nuestra organización se pondrá en contacto lo antes posible." : "" }</h3>
-                    <h3>{ idioma == "es" ? "La información proporcionada se mantendrá en todo momento estrictamente confidencial." : "" }</h3>
-                    <h3></h3>
+                    <h3>{ idioma == "es" ? "Si desea obtener más información sobre Alpha asesoría estratégica, escríbanos, un representante de nuestra organización se pondrá en contacto lo antes posible. La información proporcionada se mantendrá en todo momento estrictamente confidencial." : "" }</h3>
                     <h1>{ idioma == "es" ? "Teléfono principal" : "Main phone" }</h1>
                     <div>
                         <Link to={redes[0].url}>

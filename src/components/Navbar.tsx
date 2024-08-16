@@ -84,35 +84,35 @@ function Navbar() {
                                     </li>
                                 </ul>
                                 <ul className="content"> 
-                                    <li className="megamenu_item header__megamenu"><Link to="/capacidades/consultoria">{ idioma == "es" ? "Consultoría" : "Consultancy" }</Link></li>
+                                    <li className="megamenu_item header__megamenu"><Link to="/capacidades/asesoria">{ idioma == "es" ? "Asesoría" : "Advice" }</Link></li>
                                     <li className="megamenu_item">
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/consultoria#macro">Macro</Link>
+                                            <Link to="/capacidades/asesoria#macro">Macro</Link>
                                         </div>
                                     </li>
                                     <li className="megamenu_item">
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/consultoria#micro">Micro</Link>
+                                            <Link to="/capacidades/asesoria#micro">Micro</Link>
                                         </div>
                                     </li>
                                     <li className="megamenu_item">
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/consultoria#estructuracion">{ idioma == "es" ? "Estructuración y Financiamiento de Proyectos" : "Project Structuring and Financing" }</Link>
+                                            <Link to="/capacidades/asesoria#estructuracion">{ idioma == "es" ? "Estructuración y Financiamiento de Proyectos" : "Project Structuring and Financing" }</Link>
                                         </div>
                                     </li>
                                     <li className="megamenu_item">
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/consultoria#ifd">{ idioma == "es" ? "IFD" : "DFI" }</Link>
+                                            <Link to="/capacidades/asesoria#ifd">{ idioma == "es" ? "IFD" : "DFI" }</Link>
                                         </div>
                                     </li>
                                     <li className="megamenu_item">
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/consultoria#peritajes">{ idioma == "es" ? "Peritajes" : "Expert reports" }</Link>
+                                            <Link to="/capacidades/asesoria#peritajes">{ idioma == "es" ? "Peritajes" : "Expert reports" }</Link>
                                         </div>
                                     </li>
                                     <li className="megamenu_item">
                                         <div className="megamenu__link">
-                                            <Link to="/capacidades/consultoria">{ idioma == "es" ? "Ver todo" : "See all" } <i><IoArrowForwardOutline /></i></Link>
+                                            <Link to="/capacidades/asesoria">{ idioma == "es" ? "Ver todo" : "See all" } <i><IoArrowForwardOutline /></i></Link>
                                         </div>
                                     </li>
                                 </ul>
